@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(understanding_currency_exchange_rates.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.container{
+    background-color: wheat;
+    padding: 2rem;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px;
+    height: 70vh;
+    width: 60vh;
+}
+
+form{
+    margin: 1rem 0 2rem 0;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+form input{
+    border: 1px solid lightsalmon;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    height: 3rem;
+    padding-left: 0.5rem ;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.image{
+    max-width: 2rem;
+}
+.select-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid lightsalmon;
+    border-radius: 0.5rem;
+    background-color: rgb(224, 19, 19);
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-size: 2rem;
+
+}
+
+form button{
+    background-color: rgb(193, 34, 60);
+    color: whitesmoke;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
